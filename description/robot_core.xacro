@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+   <material name="white">
+       <color rgba="1 1 1 1" />
+   </material>
+
+   <material name="orange">
+       <color rgba="1 0.3 0.1 1" />
+   </material>
+
+   <material name="blue">
+       <color rgba="0.2 0.2 1 1" />
+   </material>
+
+   <material name="red">
+       <color rgba="1 0.2 0.2 1" />
+   </material>
+
+   <material name="black">
+       <color rgba="0.2 0.2 0.2 1" />
+   </material>
+
+   <xacro:property name="radius_finger" value="0.3"/>
+   <xacro:property name="arm_lenght" value="0.3"/>
+   <xacro:property name="link_distance" value="0.3"/>
+   <xacro:property name="palm_height" value="0.2"/>
+
+   <link name="wrist_link">
+      <visual>
+         <origin xyz="0 0 ${palm_height/2}" />
+            <geometry>
+              <box size="0.05 0.15 ${palm_height}" />
+            </geometry>
+        </visual>
+   </link>
+
+   <joint name="thumb_cmc_joint" type="revolute">
+      
+    </joint>
+
+</robot>

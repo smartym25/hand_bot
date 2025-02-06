@@ -12,7 +12,7 @@ def generate_launch_description():
 
     namePackage="hand_bot"
 
-    modelFilePath="model/robot.urdf.xacro"
+    modelFilePath="description/robot.urdf.xacro"
 
     #worldFilePath="worlds/empty.world"
 

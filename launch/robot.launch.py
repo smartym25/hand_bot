@@ -8,9 +8,9 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    robotXacroName= "wheeled_bot"
+    robotXacroName= "hand"
 
-    namePackage="mobile_bot"
+    namePackage="hand_bot"
 
     modelFilePath="model/robot.urdf.xacro"
 

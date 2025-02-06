@@ -35,8 +35,4 @@
         </visual>
    </link>
 
-   <joint name="thumb_cmc_joint" type="revolute">
-      
-    </joint>
-
 </robot>
